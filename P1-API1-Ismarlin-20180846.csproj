@@ -8,9 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Entidades\" />
     <Folder Include="BLL\" />
-    <Folder Include="DAL\" />
     <Folder Include="UI\" />
   </ItemGroup>
 
