@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P1-API1-Ismarlin-20180846", "P1-API1-Ismarlin-20180846.csproj", "{A6AC105C-FC19-47AC-B85A-817F5EC42CBB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A6AC105C-FC19-47AC-B85A-817F5EC42CBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6AC105C-FC19-47AC-B85A-817F5EC42CBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6AC105C-FC19-47AC-B85A-817F5EC42CBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6AC105C-FC19-47AC-B85A-817F5EC42CBB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {01CEEB74-FDAA-42B0-B950-D7747E800CED}
+	EndGlobalSection
+EndGlobal
