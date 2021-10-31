@@ -8,12 +8,12 @@ using System.Threading.Tasks;
 
 namespace P1_API1_Ismarlin_20180846.DAL
 {
-    class Contexto : DbContext
+    public class Contexto : DbContext
     {
-        public DbSet<Aporte> Aporte { get; set; }
+        public DbSet<Aportes> Aportes { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlite(@"Data Source = DATA\APORTEControl.db");
+            optionsBuilder.UseSqlite(@"Data Source = DATA\AportesControl.db");
         }
     }
 }
