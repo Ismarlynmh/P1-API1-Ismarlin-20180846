@@ -5,7 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:P1_API1_Ismarlin_20180846"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="500">
+        Title="Registro" Height="450" Width="500" Icon="/Resources/permiso.png">
+
     <Grid>
         <StackPanel>
             <Menu Height="18">

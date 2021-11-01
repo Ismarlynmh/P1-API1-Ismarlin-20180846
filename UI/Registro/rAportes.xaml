@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:P1_API1_Ismarlin_20180846.UI"
         mc:Ignorable="d"
-        Title="Registro De Aportes" Height="450" Width="400">
+        Title="Registros de Aportes" Height="450" Width="400">
     <Grid>
         <StackPanel Orientation="Vertical">
             <Label x:Name="AportesIDLabel" Content=" Aportes ID" />
@@ -14,6 +14,7 @@
                 <Button x:Name="BuscarIDButton" Margin="5,0,0,0" Click="BuscarIDButton_Click">
                     <StackPanel Orientation="Horizontal" Height="25" Width="92">
                         <Image Source="/Resources/lupa.png" />
+
 
                         <Label Content="Buscar ID"  />
                     </StackPanel>
@@ -46,6 +47,7 @@
                     <StackPanel Orientation="Horizontal">
                         <Image Source="/Resources/signo de mas.png" />
 
+
                         <Label Content="Nuevo"/>
                     </StackPanel>
                 </Button>
@@ -54,7 +56,6 @@
                 <Button x:Name="GuardarButton" Height="40" Width="90"  Margin="10" Click="GuardarButton_Click">
                     <StackPanel Orientation="Horizontal">
                         <Image Source="/Resources/guardar.png" />
-
                         <Label Content="Guardar"/>
                     </StackPanel>
                 </Button>
@@ -63,6 +64,7 @@
                 <Button x:Name="EliminarButton" Height="40" Width="90"  Margin="10" Click="EliminarButton_Click">
                     <StackPanel Orientation="Horizontal">
                         <Image Source="/Resources/boton-eliminar.png" />
+
 
                         <Label Content="Eliminar"/>
                     </StackPanel>

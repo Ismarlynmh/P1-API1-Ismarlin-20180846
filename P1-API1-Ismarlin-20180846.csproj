@@ -11,6 +11,7 @@
     <None Remove="Resources\boton-eliminar.png" />
     <None Remove="Resources\guardar.png" />
     <None Remove="Resources\lupa.png" />
+    <None Remove="Resources\permiso.png" />
     <None Remove="Resources\signo de mas.png" />
   </ItemGroup>
 
@@ -30,6 +31,7 @@
     <Resource Include="Resources\boton-eliminar.png" />
     <Resource Include="Resources\guardar.png" />
     <Resource Include="Resources\lupa.png" />
+    <Resource Include="Resources\permiso.png" />
     <Resource Include="Resources\signo de mas.png" />
   </ItemGroup>
 

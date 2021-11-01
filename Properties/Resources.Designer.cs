@@ -93,6 +93,16 @@ namespace P1_API1_Ismarlin_20180846.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Byte[].
         /// </summary>
+        internal static byte[] permiso {
+            get {
+                object obj = ResourceManager.GetObject("permiso", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
         internal static byte[] signo_de_mas {
             get {
                 object obj = ResourceManager.GetObject("signo_de_mas", resourceCulture);

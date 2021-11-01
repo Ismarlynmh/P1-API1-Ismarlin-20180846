@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:P1_API1_Ismarlin_20180846.UI"
         mc:Ignorable="d"
-        Title="cAportes" Height="490" Width="600">
+        Title="Consultas de Aportes" Height="490" Width="600">
     <Grid>
         <StackPanel Orientation="Vertical" Margin="10,5,10,0">
 
@@ -37,6 +37,7 @@
                 <Button x:Name="BuscarButton" Height="34" Width="93" Click="BuscarButton_Click" >
                     <StackPanel Orientation="Horizontal" >
                         <Image Source="/Resources/lupa.png" />
+
 
                         <Label Content="Buscar" />
                     </StackPanel>
