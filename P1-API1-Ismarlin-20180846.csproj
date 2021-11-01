@@ -9,6 +9,7 @@
 
   <ItemGroup>
     <Folder Include="BLL\" />
+    <Folder Include="Data\" />
     <Folder Include="UI\" />
   </ItemGroup>
 
@@ -18,6 +19,12 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Data\AportesControl.db">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
 </Project>
