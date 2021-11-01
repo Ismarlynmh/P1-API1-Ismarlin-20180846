@@ -8,6 +8,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Resources\boton-eliminar.png" />
+    <None Remove="Resources\guardar.png" />
+    <None Remove="Resources\lupa.png" />
+    <None Remove="Resources\signo de mas.png" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="Data\" />
   </ItemGroup>
 
@@ -17,6 +24,13 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\boton-eliminar.png" />
+    <Resource Include="Resources\guardar.png" />
+    <Resource Include="Resources\lupa.png" />
+    <Resource Include="Resources\signo de mas.png" />
   </ItemGroup>
 
   <ItemGroup>
